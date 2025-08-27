@@ -10,12 +10,11 @@ public class Navneskilt {
         //********************
     }
     public static void printNavneskilt() {
-        System.out.println("********************");
-        System.out.print("* ");
-        System.out.println("David Søbæk Olsen" + "*");
-        System.out.print("*    ");
-        System.out.println("daol@kea.dk" + "   *");
-        System.out.print("*******************");
+        System.out.println("*************************");
         System.out.print("*");
+        System.out.println("\tDavid Søbæk Olsen" + "\t*");
+        System.out.print("*");
+        System.out.println("\t\tdaol@kea.dk" + "\t\t*");
+        System.out.print("*************************");
     }
 }
