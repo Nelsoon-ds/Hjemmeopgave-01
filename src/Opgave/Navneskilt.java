@@ -3,6 +3,11 @@ package Opgave;
 public class Navneskilt {
     public static void main(String[] args) {
         printNavneskilt();
+        // Should compile into this:
+        // ********************
+        //* David Søbæk Olsen*
+        //*    daol@kea.dk   *
+        //********************
     }
     public static void printNavneskilt() {
         System.out.println("********************");
